@@ -13,6 +13,7 @@
 		424220302CFEDEAA00F8AA3F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4242202F2CFEDEAA00F8AA3F /* Preview Assets.xcassets */; };
 		424220382CFEE14800F8AA3F /* ErrorWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424220372CFEE14800F8AA3F /* ErrorWrapper.swift */; };
 		4242203A2CFEE21400F8AA3F /* SampleError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424220392CFEE21400F8AA3F /* SampleError.swift */; };
+		4242203D2CFEE2A400F8AA3F /* ShowErrorEnvironmentKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4242203C2CFEE2A400F8AA3F /* ShowErrorEnvironmentKey.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		4242202F2CFEDEAA00F8AA3F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		424220372CFEE14800F8AA3F /* ErrorWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorWrapper.swift; sourceTree = "<group>"; };
 		424220392CFEE21400F8AA3F /* SampleError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleError.swift; sourceTree = "<group>"; };
+		4242203C2CFEE2A400F8AA3F /* ShowErrorEnvironmentKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowErrorEnvironmentKey.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		424220262CFEDEA600F8AA3F /* SwiftUIToastAndSheet */ = {
 			isa = PBXGroup;
 			children = (
+				4242203B2CFEE24000F8AA3F /* EnvironmentValues */,
 				424220362CFEE10C00F8AA3F /* CustomErrors */,
 				424220272CFEDEA600F8AA3F /* SwiftUIToastAndSheetApp.swift */,
 				424220292CFEDEA600F8AA3F /* ContentView.swift */,
@@ -81,6 +84,14 @@
 				424220392CFEE21400F8AA3F /* SampleError.swift */,
 			);
 			path = CustomErrors;
+			sourceTree = "<group>";
+		};
+		4242203B2CFEE24000F8AA3F /* EnvironmentValues */ = {
+			isa = PBXGroup;
+			children = (
+				4242203C2CFEE2A400F8AA3F /* ShowErrorEnvironmentKey.swift */,
+			);
+			path = EnvironmentValues;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4242203A2CFEE21400F8AA3F /* SampleError.swift in Sources */,
+				4242203D2CFEE2A400F8AA3F /* ShowErrorEnvironmentKey.swift in Sources */,
 				424220382CFEE14800F8AA3F /* ErrorWrapper.swift in Sources */,
 				4242202A2CFEDEA600F8AA3F /* ContentView.swift in Sources */,
 				424220282CFEDEA600F8AA3F /* SwiftUIToastAndSheetApp.swift in Sources */,
